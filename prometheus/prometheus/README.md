@@ -1,6 +1,6 @@
 # Prometheus
 
-## 1. 什麼是 prometheus?
+## 1. 什麼是 Prometheus?
 
 是一個適合拿來做資源監測的服務，例如 CPU，記憶體等使用狀況，並在出現狀況時透過警告系統即時通報。
 
@@ -100,7 +100,7 @@
     scrape_configs:
       ...
 
-      #for sprint boot
+      # for sprint boot
       - job_name: 'spring-boot'
         scrape_interval: 5s
         scrape_timeout: 5s
